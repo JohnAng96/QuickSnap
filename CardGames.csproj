@@ -115,6 +115,8 @@
     <None Include="Resources\images\cardsBoard.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
+    <None Include="Resources\sounds\diffslaptime.mp4" />
+    <None Include="Resources\sounds\sameslaptime.mp4" />
   </ItemGroup>
   <Target Name="CopyFiles">
     <Copy SourceFiles="@(MacLibraryFiles)" DestinationFolder="$(OutDir)" />
